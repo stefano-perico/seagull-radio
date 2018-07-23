@@ -105,4 +105,9 @@ class Channel
 
         return $this;
     }
+
+    public function getLogoPath()
+    {
+        return 'images/logos/'.$this->getLogo();
+    }
 }

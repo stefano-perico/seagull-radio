@@ -24,18 +24,6 @@ class ChannelAdminController extends AbstractController
     {
         // TODO - create a form to add channels
 
-        $channel = new Channel();
-        $channel
-            ->setName('Hotel Radio Paris')
-            ->setWebsite('http://hotelradioparis.com/')
-            ->setLocation('Paris')
-            ->setLogo('Hotel Radio Paris.jpg')
-            ->setLink('http://91.121.162.224:9111/stream')
-        ;
-
-        //$em->persist($channel);
-        //$em->flush();
-
         return new Response('Ok');
     }
 
