@@ -1,4 +1,9 @@
 {% extends 'base.html.twig' %}
+{% block stylesheets %}
+    {{ parent() }}
+    <!-- skin JPlayer -->
+    <link rel="stylesheet" href="{{ asset('css/jplayer/skin/circle.player.css') }}">
+{% endblock %}
 
 {% block body %}
     <section class="jumbotron text-center">
@@ -17,27 +22,73 @@
             <div class="row">
 
                 {% for channel in channels %}
-                <div class="col-md-4">
-                    <div class="card mb-4 box-shadow">
-                        <img class="card-img-top" src="{{ asset(channel.logoPath) }}" alt="Card image cap">
-                        <div class="card-body">
-                            <p class="card-text">{{ channel.name }}</p>
-                            <p class="card-text">{{ channel.link }}</p>
-                            <p class="card-text">{{ channel.location }}</p>
-                            <p class="card-text">{{ channel.website }}</p>
-                            <div class="d-flex justify-content-between align-items-center">
-                                <div class="btn-group">
-                                    <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-                                    <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                    <div class="col-md-4">
+                        <div class="card mb-4 box-shadow">
+                            <img class="card-img-top" src="{{ asset(channel.logoPath) }}" alt="logo {{ channel.name }}">
+                            <div class="card-body">
+                                <div id="jquery_jplayer_{{ channel.id }}" class="cp-jplayer"></div>
+                                <div id="cp_container_{{ channel.id }}" class="cp-container">
+                                    <ul class="cp-controls">
+                                        <li><a class="cp-play" id="play"  tabindex="1">play</a></li>
+                                        <li><a class="cp-pause" id="pause" style="display:none;" tabindex="1">pause</a></li>
+                                    </ul>
                                 </div>
-                                <small class="text-muted">9 mins</small>
                             </div>
                         </div>
                     </div>
-                </div>
                 {% endfor %}
-
             </div>
         </div>
     </div>
+{% endblock %}
+
+{% block javascripts %}
+    {{ parent() }}
+    <!-- js JPlayer -->
+    <script type="text/javascript" src="{{ asset('js/jplayer/jquery.jplayer.min.js') }}"></script>
+    <script type="text/javascript" src="{{ asset('js/jplayer/skin/jquery.transform2d.js') }}"></script>
+    <script type="text/javascript" src="{{ asset('js/jplayer/skin/jquery.grab.js') }}"></script>
+    <script type="text/javascript" src="{{ asset('js/jplayer/skin/mod.csstransforms.min.js') }}"></script>
+    <script type="text/javascript" src="{{ asset('js/jplayer/skin/circle.player.js') }}"></script>
+
+    {% for channel in channels %}
+        <script type="text/javascript">
+            $(document).ready(function() {
+                $(document).ready(function() {
+                    var stream{{ channel.id }} = {
+                            title: "{{ channel.name }}",
+                            mp3: "{{ channel.link }}",
+                            poster: "{{ asset(channel.logoPath) }}"
+                        },
+                        ready = false;
+                    var myCirclePlayer{{ channel.id }} = new CirclePlayer("#jquery_jplayer_{{ channel.id }}",
+                        stream{{ channel.id }},
+                        {
+                            cssSelectorAncestor: "#cp_container_{{ channel.id }}",
+                            swfPath: "jplayer",
+                            supplied: "mp3",
+                            preload: "none",
+                            wmode: "window",
+                            useStateClassSkin: true,
+                            autoBlur: false,
+                            keyEnabled: true,
+
+                            ready: function (event) {
+                                ready = true;
+                                $(this).jPlayer("setMedia", stream{{ channel.id }});
+                            },
+                            pause: function() {
+                                $(this).jPlayer("clearMedia");
+                            },
+                            error: function(event) {
+                                if(ready && event.jPlayer.error.type === $.jPlayer.error.URL_NOT_SET) {
+                                    // Setup the media stream again and play it.
+                                    $(this).jPlayer("setMedia", stream{{ channel.id }}).jPlayer("play");
+                                }
+                            },
+                        });
+                });
+            });
+        </script>
+    {% endfor %}
 {% endblock %}
