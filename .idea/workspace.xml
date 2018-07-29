@@ -2,10 +2,33 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e9de88a6-7fac-4502-89cb-25b74958b236" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/public/js/jquery.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/seagull-radio.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/seagull-radio.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/jplayer/skin/circle.player.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/jplayer/skin/circle.player.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/jplayer/skin/controls.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/logos/Berlin Community Radio.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/logos/Berlin Community Radio.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/logos/DH69ZxmXYAA9OBI.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/logos/Ness Radio.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/logos/Ness Radio.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/logos/PBB_blanc.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/logos/Radio 80K DRAFT.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/logos/Radio80k.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/logos/Rinse_France.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/logos/Screen Shot 2018-04-10 at 10.19.50 pm.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/logos/Screen Shot 2018-04-10 at 10.22.16 pm.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/logos/Screen Shot 2018-04-10 at 10.27.31 pm.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/logos/rinse.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/logos/Screen Shot 2018-04-10 at 10.34.26 pm.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/logos/avatars-000246571963-ylsnjm-t500x500.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/logos/berlin.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/logos/boxout.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/logos/brand-logo.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/logos/circle-tech-dilients.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/logos/download.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/logos/dublab_twitter_avatar.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/logos/edb2-361a-4c23-aa99-81c495618789.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/logos/hotel.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/logos/knowwave.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/logos/lotradio.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/logos/quantica-logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/logos/worldwidefm.jpg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/home/homepage.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/home/homepage.html.twig" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -23,17 +46,8 @@
       <file leaf-file-name="base.html.twig" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/base.html.twig">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="331">
-              <caret line="46" column="12" selection-start-line="46" selection-start-column="12" selection-end-line="46" selection-end-column="12" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name=".env" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.env">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="512">
-              <caret line="16" column="33" selection-start-line="16" selection-start-column="33" selection-end-line="16" selection-end-column="33" />
+            <state relative-caret-position="1504">
+              <caret line="47" column="86" selection-start-line="47" selection-start-column="86" selection-end-line="47" selection-end-column="86" />
             </state>
           </provider>
         </entry>
@@ -41,55 +55,41 @@
       <file leaf-file-name="Channel.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Entity/Channel.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3520">
+            <state relative-caret-position="2810">
               <caret line="110" column="29" selection-start-line="110" selection-start-column="29" selection-end-line="110" selection-end-column="29" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ChannelAdminController.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Controller/ChannelAdminController.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="640">
-              <caret line="29" column="1" selection-start-line="29" selection-start-column="1" selection-end-line="29" selection-end-column="1" />
-              <folding>
-                <element signature="e#117#140#0#PHP" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="main.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/css/main.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1216">
-              <caret line="38" column="63" selection-start-line="38" selection-start-column="63" selection-end-line="38" selection-end-column="63" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="homepage.html.twig" pinned="false" current-in-tab="true">
+      <file leaf-file-name="homepage.html.twig" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/home/homepage.html.twig">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1632">
-              <caret line="51" column="14" lean-forward="true" selection-start-line="51" selection-start-column="14" selection-end-line="51" selection-end-column="14" />
+            <state relative-caret-position="748">
+              <caret line="79" column="36" selection-start-line="79" selection-start-column="36" selection-end-line="79" selection-end-column="36" />
               <folding>
-                <element signature="e#1980#2001#0#HTML" expanded="true" />
+                <element signature="e#12#26#0#Twig" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="HomeController.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Controller/HomeController.php">
+      <file leaf-file-name="circle.player.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/css/jplayer/skin/circle.player.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="736">
-              <caret line="31" column="1" selection-start-line="31" selection-start-column="1" selection-end-line="31" selection-end-column="1" />
-              <folding>
-                <element signature="e#117#140#0#PHP" expanded="true" />
-              </folding>
+            <state relative-caret-position="256">
+              <caret line="110" column="14" selection-start-line="110" selection-start-column="14" selection-end-line="110" selection-end-column="14" />
             </state>
           </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Balamii.jpg" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/images/logos/Balamii.jpg">
+          <provider selected="true" editor-type-id="images" />
+        </entry>
+      </file>
+      <file leaf-file-name="rinse.png" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/public/images/logos/rinse.png">
+          <provider selected="true" editor-type-id="images" />
         </entry>
       </file>
     </leaf>
@@ -118,9 +118,10 @@
         <option value="$PROJECT_DIR$/src/Entity/Channel.php" />
         <option value="$PROJECT_DIR$/src/Controller/HomeController.php" />
         <option value="$PROJECT_DIR$/src/Controller/ChannelAdminController.php" />
-        <option value="$PROJECT_DIR$/templates/base.html.twig" />
         <option value="$PROJECT_DIR$/public/js/jquery.js" />
+        <option value="$PROJECT_DIR$/templates/base.html.twig" />
         <option value="$PROJECT_DIR$/templates/home/homepage.html.twig" />
+        <option value="$PROJECT_DIR$/public/css/jplayer/skin/circle.player.css" />
       </list>
     </option>
   </component>
@@ -203,7 +204,7 @@
       <path value="$PROJECT_DIR$/vendor/nikic/php-parser" />
     </include_path>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="4">
     <option name="x" value="67" />
     <option name="y" value="25" />
     <option name="width" value="927" />
@@ -232,6 +233,34 @@
               <item name="seagull-radio" type="462c0819:PsiDirectoryNode" />
               <item name="public" type="462c0819:PsiDirectoryNode" />
               <item name="css" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="seagull-radio" type="b2602c69:ProjectViewProjectNode" />
+              <item name="seagull-radio" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
+              <item name="jplayer" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="seagull-radio" type="b2602c69:ProjectViewProjectNode" />
+              <item name="seagull-radio" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
+              <item name="jplayer" type="462c0819:PsiDirectoryNode" />
+              <item name="skin" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="seagull-radio" type="b2602c69:ProjectViewProjectNode" />
+              <item name="seagull-radio" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
+              <item name="images" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="seagull-radio" type="b2602c69:ProjectViewProjectNode" />
+              <item name="seagull-radio" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
+              <item name="images" type="462c0819:PsiDirectoryNode" />
+              <item name="logos" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="seagull-radio" type="b2602c69:ProjectViewProjectNode" />
@@ -296,6 +325,8 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/public/images/logos" />
+      <recent name="$PROJECT_DIR$/public/images/logos/logo" />
       <recent name="$PROJECT_DIR$/public/js/jplayer/skin" />
       <recent name="$PROJECT_DIR$/public/css/jplayer" />
     </key>
@@ -326,12 +357,13 @@
       <workItem from="1532244785153" duration="5259000" />
       <workItem from="1532364017240" duration="4233000" />
       <workItem from="1532451904857" duration="1190000" />
-      <workItem from="1532453136779" duration="6550000" />
+      <workItem from="1532453136779" duration="6966000" />
+      <workItem from="1532851788095" duration="6646000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19768000" />
+    <option name="totallyTimeSpent" value="26830000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -344,9 +376,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="25" width="927" height="1055" extended-state="4" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.44267878" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.446084" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.46341464" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
@@ -355,7 +386,7 @@
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.3264642" />
+      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.3253796" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -374,6 +405,16 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/templates/home/homepage.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1664">
+          <caret line="52" selection-start-line="52" selection-end-line="52" />
+          <folding>
+            <element signature="e#12#26#0#Twig" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/templates/base.html.twig">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1280">
@@ -427,7 +468,7 @@
         <state relative-caret-position="1216">
           <caret line="38" lean-forward="true" selection-start-line="38" selection-end-line="38" />
           <folding>
-            <element signature="e#1980#2001#0#HTML" expanded="true" />
+            <element signature="e#12#26#0#Twig" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -583,23 +624,6 @@
     <entry file="file://$PROJECT_DIR$/src/Migrations/Version20180722080120.php">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Entity/Channel.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3520">
-          <caret line="110" column="29" selection-start-line="110" selection-start-column="29" selection-end-line="110" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Controller/HomeController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="736">
-          <caret line="31" column="1" selection-start-line="31" selection-start-column="1" selection-end-line="31" selection-end-column="1" />
-          <folding>
-            <element signature="e#117#140#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/css/main.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1216">
@@ -607,30 +631,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Controller/ChannelAdminController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="640">
-          <caret line="29" column="1" selection-start-line="29" selection-start-column="1" selection-end-line="29" selection-end-column="1" />
-          <folding>
-            <element signature="e#117#140#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/js/jplayer/skin/circle.player.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-864">
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/base.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="331">
-          <caret line="46" column="12" selection-start-line="46" selection-start-column="12" selection-end-line="46" selection-end-column="12" />
-        </state>
+        <state relative-caret-position="-864" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public/js/jquery.js">
@@ -640,15 +643,98 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/home/homepage.html.twig">
+    <entry file="file://$PROJECT_DIR$/templates/base.html.twig">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1632">
-          <caret line="51" column="14" lean-forward="true" selection-start-line="51" selection-start-column="14" selection-end-line="51" selection-end-column="14" />
+        <state relative-caret-position="1504">
+          <caret line="47" column="86" selection-start-line="47" selection-start-column="86" selection-end-line="47" selection-end-column="86" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/css/jplayer/skin/bgr.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/css/jplayer/skin/buffer.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/css/jplayer/skin/controls.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/css/jplayer/skin/progress.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/css/jplayer/skin/progress_sprite.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Controller/ChannelAdminController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="506">
+          <caret line="29" column="1" selection-start-line="29" selection-start-column="1" selection-end-line="29" selection-end-column="1" />
           <folding>
-            <element signature="e#1980#2001#0#HTML" expanded="true" />
+            <element signature="e#117#140#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Controller/HomeController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="506">
+          <caret line="31" column="1" selection-start-line="31" selection-start-column="1" selection-end-line="31" selection-end-column="1" />
+          <folding>
+            <element signature="e#117#140#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Entity/Channel.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2810">
+          <caret line="110" column="29" selection-start-line="110" selection-start-column="29" selection-end-line="110" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/home/homepage.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="748">
+          <caret line="79" column="36" selection-start-line="79" selection-start-column="36" selection-end-line="79" selection-end-column="36" />
+          <folding>
+            <element signature="e#12#26#0#Twig" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/images/logos/Screen Shot 2018-04-10 at 10.19.50 pm.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/images/logos/Screen Shot 2018-04-10 at 10.22.16 pm.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/images/logos/Screen Shot 2018-04-10 at 10.34.26 pm.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/css/jplayer/skin/circle.player.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="256">
+          <caret line="110" column="14" selection-start-line="110" selection-start-column="14" selection-end-line="110" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/images/logos/avatars-000246571963-ylsnjm-t500x500.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/images/logos/Balamii.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/images/logos/berlin.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/images/logos/edb2-361a-4c23-aa99-81c495618789.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/images/logos/Rinse_France.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/images/logos/rinse.png">
+      <provider selected="true" editor-type-id="images" />
     </entry>
   </component>
 </project>
