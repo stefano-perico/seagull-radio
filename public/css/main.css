@@ -37,3 +37,26 @@ footer p {
 }
 
 .box-shadow { box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05); }
+
+.city {
+    background-color: #48BDB5;
+    color: #FFFFFF;
+    padding: 1em 0;
+    font-size: small;
+}
+
+.time {
+    background-color: white;
+    color: #48BDB5;
+    margin-top: 0;
+    padding: 1em 0;
+    font-size: small;
+}
+
+.container-fluid {
+    margin-top:4px;
+}
+
+body {
+    background-color: #f8f9fa;
+}
