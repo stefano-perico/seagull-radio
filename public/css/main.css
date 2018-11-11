@@ -64,3 +64,14 @@ footer p {
 .bg-light {
     background-color: white !important;
 }
+
+.card-body {
+    color: grey;
+    font-size: small;
+}
+
+.card-body a{
+    color: black;
+    font-weight: bold;
+    font-size: medium;
+}
