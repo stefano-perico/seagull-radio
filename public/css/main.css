@@ -53,10 +53,14 @@ footer p {
     font-size: small;
 }
 
-.container-fluid {
-    margin-top:4px;
+/*.py-5 .container .row {
+    background-color: #fff;
 }
 
-body {
-    background-color: #f8f9fa;
+.py-5 .container .row  .col-lg-3 {
+    margin-top: 25px;
+}*/
+
+.bg-light {
+    background-color: white !important;
 }

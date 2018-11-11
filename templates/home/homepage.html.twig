@@ -11,7 +11,7 @@
             <div class="row">
 
                 {% for channel in channels %}
-                    <div class="col-lg-4 col-md-6">
+                    <div class="col-lg-3">
                         <div class="card mb-4 box-shadow">
                             <img class="card-img-top" src="{{ asset(channel.logoPath) }}" alt="logo {{ channel.name }}">
                             <div id="jquery_jplayer_{{ channel.id }}" class="cp-jplayer"></div>
