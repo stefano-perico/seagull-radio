@@ -17,8 +17,8 @@
                             <div id="jquery_jplayer_{{ channel.id }}" class="cp-jplayer"></div>
                             <div id="cp_container_{{ channel.id }}" class="cp-container">
                                 <ul class="cp-controls">
-                                    <li><a class="cp-play" id="play"  tabindex="1">play</a></li>
-                                    <li><a class="cp-pause" id="pause" style="display:none;" tabindex="1">pause</a></li>
+                                    <li><a class="cp-play" tabindex="1">play</a></li>
+                                    <li><a class="cp-pause" style="display:none;" tabindex="1">pause</a></li>
                                 </ul>
                             </div>
                             <div class="card-body text-center">
@@ -37,13 +37,13 @@
 {% block javascripts %}
     {{ parent() }}
     <!-- js JPlayer -->
-    <script type="text/javascript" src="{{ asset('js/jplayer/jquery.jplayer.min.js') }}"></script>
-    <script type="text/javascript" src="{{ asset('js/jplayer/skin/jquery.transform2d.js') }}"></script>
-    <script type="text/javascript" src="{{ asset('js/jplayer/skin/jquery.grab.js') }}"></script>
-    <script type="text/javascript" src="{{ asset('js/jplayer/skin/mod.csstransforms.min.js') }}"></script>
-    <script type="text/javascript" src="{{ asset('js/jplayer/skin/circle.player.js') }}"></script>
+    <script src="{{ asset('js/jplayer/jquery.jplayer.min.js') }}"></script>
+    <script src="{{ asset('js/jplayer/skin/jquery.transform2d.js') }}"></script>
+    <script src="{{ asset('js/jplayer/skin/jquery.grab.js') }}"></script>
+    <script src="{{ asset('js/jplayer/skin/mod.csstransforms.min.js') }}"></script>
+    <script src="{{ asset('js/jplayer/skin/circle.player.js') }}"></script>
 
-    <script type="text/javascript">
+    <script>
         $(document).ready(function() {
             function test($id, $name, $link, $logoPath) {
 

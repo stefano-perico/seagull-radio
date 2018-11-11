@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en-us">
     <head>
         <meta charset="UTF-8">
         <title>{% block title %}Home Page Radio!{% endblock %}</title>
@@ -8,6 +8,7 @@
             <link rel="stylesheet" href="{{ asset('css/main.css') }}">
         {% endblock %}
     </head>
+    <body>
     <header>
       <div class="container-fluid">
         <div class="row text-center">
@@ -40,8 +41,7 @@
         </div>
       </div>
     </header>
-    <body>
-    <main role="main">
+    <main>
         {% block body %}{% endblock %}
     </main>
     <footer>
@@ -49,7 +49,7 @@
     </footer>
         {% block javascripts %}
             <!-- JQuery -->
-            <script type="text/javascript" src="{{ asset('js/jquery.js') }}"></script>
+            <script src="{{ asset('js/jquery.js') }}"></script>
             <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
             <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/js/bootstrap.min.js" integrity="sha384-o+RDsa0aLu++PJvFqy8fFScvbHFLtbvScb8AjopnFD+iEQ7wo/CG0xlczd+2O/em" crossorigin="anonymous"></script>
         {% endblock %}
