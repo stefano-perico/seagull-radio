@@ -39,12 +39,14 @@
           <div class="col-lg-1 d-none d-lg-block time">12:31 AM</div>
         </div>
       </div>
-</div>
     </header>
     <body>
     <main role="main">
         {% block body %}{% endblock %}
     </main>
+    <footer>
+      <div class="footer-copyright text-center py-3">Copyright © homepageradio.pw 2018-2019 - <a href="mailto:webmaster@homepageradio.pw">Contact us</a> </div>
+    </footer>
         {% block javascripts %}
             <!-- JQuery -->
             <script type="text/javascript" src="{{ asset('js/jquery.js') }}"></script>
