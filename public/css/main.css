@@ -75,3 +75,12 @@ footer p {
     font-weight: bold;
     font-size: medium;
 }
+
+footer a{
+    color: #48BDB5;
+}
+
+footer a:hover{
+    color: #48BDB5;
+}
+
