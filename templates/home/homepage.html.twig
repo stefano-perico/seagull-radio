@@ -6,30 +6,19 @@
 {% endblock %}
 
 {% block body %}
-    <section class="jumbotron text-center">
-        <div class="container">
-            <h1 class="jumbotron-heading">Album example</h1>
-            <p class="lead text-muted">Something short and leading about the collection below—its contents, the creator, etc. Make it short and sweet, but not too short so folks don't simply skip over it entirely.</p>
-            <p>
-                <a href="#" class="btn btn-primary my-2">Main call to action</a>
-                <a href="#" class="btn btn-secondary my-2">Secondary action</a>
-            </p>
-        </div>
-    </section>
-
     <div class="py-5 bg-light">
         <div class="container">
             <div class="row">
 
                 {% for channel in channels %}
-                    <div class="col-lg-4 col-md-6">
-                        <div class="card mb-4 box-shadow">
+                    <div class="col-lg-3">
+                        <div class="mb-4">
                             <img class="card-img-top" src="{{ asset(channel.logoPath) }}" alt="logo {{ channel.name }}">
                             <div id="jquery_jplayer_{{ channel.id }}" class="cp-jplayer"></div>
                             <div id="cp_container_{{ channel.id }}" class="cp-container">
                                 <ul class="cp-controls">
-                                    <li><a class="cp-play" id="play"  tabindex="1">play</a></li>
-                                    <li><a class="cp-pause" id="pause" style="display:none;" tabindex="1">pause</a></li>
+                                    <li><a class="cp-play" tabindex="1">play</a></li>
+                                    <li><a class="cp-pause" style="display:none;" tabindex="1">pause</a></li>
                                 </ul>
                             </div>
                             <div class="card-body text-center">
@@ -48,13 +37,13 @@
 {% block javascripts %}
     {{ parent() }}
     <!-- js JPlayer -->
-    <script type="text/javascript" src="{{ asset('js/jplayer/jquery.jplayer.min.js') }}"></script>
-    <script type="text/javascript" src="{{ asset('js/jplayer/skin/jquery.transform2d.js') }}"></script>
-    <script type="text/javascript" src="{{ asset('js/jplayer/skin/jquery.grab.js') }}"></script>
-    <script type="text/javascript" src="{{ asset('js/jplayer/skin/mod.csstransforms.min.js') }}"></script>
-    <script type="text/javascript" src="{{ asset('js/jplayer/skin/circle.player.js') }}"></script>
+    <script src="{{ asset('js/jplayer/jquery.jplayer.min.js') }}"></script>
+    <script src="{{ asset('js/jplayer/skin/jquery.transform2d.js') }}"></script>
+    <script src="{{ asset('js/jplayer/skin/jquery.grab.js') }}"></script>
+    <script src="{{ asset('js/jplayer/skin/mod.csstransforms.min.js') }}"></script>
+    <script src="{{ asset('js/jplayer/skin/circle.player.js') }}"></script>
 
-    <script type="text/javascript">
+    <script>
         $(document).ready(function() {
             function test($id, $name, $link, $logoPath) {
 

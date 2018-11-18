@@ -23,6 +23,7 @@ class HomeController extends AbstractController
     {
         $repository = $em->getRepository(Channel::class);
         $channels = $repository->findAll();
+        shuffle($channels);
 
         return $this->render('home/homepage.html.twig', [
             'channels'  =>  $channels

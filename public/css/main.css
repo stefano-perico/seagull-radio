@@ -37,3 +37,50 @@ footer p {
 }
 
 .box-shadow { box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05); }
+
+.city {
+    background-color: #48BDB5;
+    color: #FFFFFF;
+    padding: 1em 0;
+    font-size: small;
+}
+
+.time {
+    background-color: white;
+    color: #48BDB5;
+    margin-top: 0;
+    padding: 1em 0;
+    font-size: small;
+}
+
+/*.py-5 .container .row {
+    background-color: #fff;
+}
+
+.py-5 .container .row  .col-lg-3 {
+    margin-top: 25px;
+}*/
+
+.bg-light {
+    background-color: white !important;
+}
+
+.card-body {
+    color: grey;
+    font-size: small;
+}
+
+.card-body a{
+    color: black;
+    font-weight: bold;
+    font-size: medium;
+}
+
+footer a{
+    color: #48BDB5;
+}
+
+footer a:hover{
+    color: #48BDB5;
+}
+
