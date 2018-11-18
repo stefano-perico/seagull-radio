@@ -10,6 +10,7 @@ namespace App\Controller;
 
 
 use App\Entity\Channel;
+use App\Repository\ChannelRepository;
 use Doctrine\ORM\EntityManagerInterface;
 use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
 use Symfony\Component\Routing\Annotation\Route;
@@ -19,10 +20,9 @@ class HomeController extends AbstractController
     /**
      * @Route("/", name="homepage")
      */
-    public function homepage(EntityManagerInterface $em)
+    public function homepage(ChannelRepository $channelRepository)
     {
-        $repository = $em->getRepository(Channel::class);
-        $channels = $repository->findAll();
+        $channels = $channelRepository->findAll();
         shuffle($channels);
 
         return $this->render('home/homepage.html.twig', [

@@ -6,32 +6,29 @@
 {% endblock %}
 
 {% block body %}
-    <div class="py-5 bg-light">
-        <div class="container">
-            <div class="row">
+        <article class="row">
 
-                {% for channel in channels %}
-                    <div class="col-lg-3">
-                        <div class="mb-4">
-                            <img class="card-img-top" src="{{ asset(channel.logoPath) }}" alt="logo {{ channel.name }}">
-                            <div id="jquery_jplayer_{{ channel.id }}" class="cp-jplayer"></div>
-                            <div id="cp_container_{{ channel.id }}" class="cp-container">
-                                <ul class="cp-controls">
-                                    <li><a class="cp-play" tabindex="1">play</a></li>
-                                    <li><a class="cp-pause" style="display:none;" tabindex="1">pause</a></li>
-                                </ul>
-                            </div>
-                            <div class="card-body text-center">
-                                <a href="{{ channel.website }}" target="_blank">{{ channel.name }}</a>
-                                <p>{{ channel.location }}...</p>
-                            </div>
+            {% for channel in channels %}
+                <aside class="col-lg-3 my-5">
+                    <div class="js-channel-container mb-4">
+                        <img class="card-img-top" src="{{ asset(channel.logoPath) }}" alt="logo {{ channel.name }}">
+                        <div id="jquery_jplayer_{{ channel.id }}" class="cp-jplayer"></div>
+                        <div id="cp_container_{{ channel.id }}" class="cp-container">
+                            <ul class="cp-controls">
+                                <li><a class="cp-play" tabindex="1">play</a></li>
+                                <li><a class="cp-pause" style="display:none;" tabindex="1">pause</a></li>
+                            </ul>
+                        </div>
+                        <div class="card-body text-center">
+                            <a href="{{ channel.website }}" target="_blank">{{ channel.name }}</a>
+                            <p>{{ channel.location }}...</p>
                         </div>
                     </div>
-                {% endfor %}
+                </aside>
+            {% endfor %}
 
-            </div>
-        </div>
-    </div>
+        </article>
+
 {% endblock %}
 
 {% block javascripts %}
@@ -45,11 +42,8 @@
 
     <script>
         $(document).ready(function() {
-            function test($id, $name, $link, $logoPath) {
 
-            }
-
-        {% for channel in channels %}
+            {% for channel in channels %}
 
             var stream{{ channel.id }} = {
                     title: "{{ channel.name }}",
@@ -85,6 +79,15 @@
                 });
 
         {% endfor %}
+
+            $('.cp-play').click(function () {
+                $('.js-channel-container').removeClass('active');
+                $(this).parent().parent().parent().parent().addClass('active');
+            });
+
+            $('.cp-pause').click(function () {
+                $('.js-channel-container').removeClass('active');
+            });
         });
     </script>
 {% endblock %}

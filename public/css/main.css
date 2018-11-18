@@ -84,3 +84,8 @@ footer a:hover{
     color: #48BDB5;
 }
 
+.active {
+    border-style: solid;
+    border-color:  #48BDB5;
+}
+
