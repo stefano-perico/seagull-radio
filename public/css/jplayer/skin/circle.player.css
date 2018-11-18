@@ -105,8 +105,8 @@
 .cp-controls li a{
 	position:relative;
 	display:block;
-	width:35px;
-	height:35px;
+	width:75px;
+	height:75px;
 	text-indent:-9999px;
 	z-index:1;
 	cursor:pointer;
@@ -118,19 +118,21 @@
 }
 
 .cp-controls .cp-play {
-	background:url("controls.png") 2px -1px no-repeat #000;
+	background:url("play-button-svgrepo-com.svg");
+	background-color: white;
 }
 
 .cp-controls .cp-play:hover {
-	background:url("controls.png") -40px -1px  no-repeat;
+	background:url("play-button-svgrepo-com.svg");
+	background-color: #48BDB5;
 }
 
 .cp-controls .cp-pause {
-	background:url("controls.png") -43px -42px no-repeat;
+	background:url("play-button-svgrepo-com.svg");
 }
 
 .cp-controls .cp-pause:hover {
-	background:url("controls.png") -1px -42px no-repeat;
+	background:url("play-button-svgrepo-com.svg");
 }
 
 .cp-jplayer {
