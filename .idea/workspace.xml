@@ -4,6 +4,7 @@
     <list default="true" id="e9de88a6-7fac-4502-89cb-25b74958b236" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/seagull-radio.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/seagull-radio.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -142,6 +143,8 @@
       <path value="$PROJECT_DIR$/vendor/symfony/inflector" />
       <path value="$PROJECT_DIR$/vendor/symfony/security-bundle" />
       <path value="$PROJECT_DIR$/vendor/symfony/security-core" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/doctrine-fixtures-bundle" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/data-fixtures" />
     </include_path>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
@@ -244,12 +247,12 @@
       <workItem from="1547137101462" duration="1104000" />
       <workItem from="1554651083490" duration="253000" />
       <workItem from="1560494759963" duration="832000" />
-      <workItem from="1562838554994" duration="3921000" />
+      <workItem from="1562838554994" duration="4284000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="58104000" />
+    <option name="totallyTimeSpent" value="58467000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
