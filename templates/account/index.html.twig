@@ -1,20 +1,49 @@
 {% extends 'base.html.twig' %}
 
-{% block title %}Hello AccountController!{% endblock %}
+{% block title %}Manage Account!{% endblock %}
+
+{% block stylesheets %}
+    {{ parent() }}
+    
+    <link rel="stylesheet" href="{{ asset('css/account.css')}}">
+{% endblock %}
 
 {% block body %}
-<style>
-    .example-wrapper { margin: 1em auto; max-width: 800px; width: 95%; font: 18px/1.5 sans-serif; }
-    .example-wrapper code { background: #F5F5F5; padding: 2px 6px; }
-</style>
+    <div class="container">
+        <div class="row user-menu-container square">
+            <div class="col-md-12 user-details">
+                <div class="row spacepurplebg white">
+                    <div class="col-md-2 no-pad">
+                        <div class="user-image">
+                            <img src="https://robohash.org/{{ app.user.email }}" class="img-responsive thumbnail" alt="user image">
+                        </div>
+                    </div>
+                    <div class="col-md-10 no-pad">
+                        <div class="user-pad">
+                            <h3>Welcome back, {{ app.user.firstName }}</h3>
+                            <h4 class="white"><i class="fa fa-twitter"></i> ?????</h4>
+                            <a class="btn btn-labeled btn-info" href="#">
+                                <span class="btn-label"><i class="fa fa-pencil"></i></span>Update
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="row overview">
+                    <div class="col-md-4 user-pad text-center">
+                        <h3>COMMENTS</h3>
+                        <h4>184</h4>
+                    </div>
+                    <div class="col-md-4 user-pad text-center">
+                        <h3>ARTICLES READ</h3>
+                        <h4>1,910</h4>
+                    </div>
+                    <div class="col-md-4 user-pad text-center">
+                        <h3>LIKES</h3>
+                        <h4>3,892</h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 
-<div class="example-wrapper">
-    <h1>Hello {{ controller_name }}! ✅</h1>
-
-    This friendly message is coming from:
-    <ul>
-        <li>Your controller at <code><a href="{{ '/home/stefano/Projets/seagull-radio/src/Controller/AccountController.php'|file_link(0) }}">src/Controller/AccountController.php</a></code></li>
-        <li>Your template at <code><a href="{{ '/home/stefano/Projets/seagull-radio/templates/account/index.html.twig'|file_link(0) }}">templates/account/index.html.twig</a></code></li>
-    </ul>
-</div>
 {% endblock %}

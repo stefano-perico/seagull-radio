@@ -2,18 +2,22 @@
 
 namespace App\Controller;
 
-use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
+use Psr\Log\LoggerInterface;
+use Sensio\Bundle\FrameworkExtraBundle\Configuration\IsGranted;
 use Symfony\Component\Routing\Annotation\Route;
 
-class AccountController extends AbstractController
+/**
+ * @IsGranted("ROLE_USER")
+ */
+class AccountController extends BaseController
 {
     /**
-     * @Route("/account", name="account")
+     * @Route("/account", name="app_account")
      */
-    public function index()
+    public function index(LoggerInterface $logger)
     {
-        return $this->render('account/index.html.twig', [
-            'controller_name' => 'AccountController',
-        ]);
+        $logger->debug('Checking account page for '.$this->getUser()->getEmail());
+
+        return $this->render('account/index.html.twig');
     }
 }

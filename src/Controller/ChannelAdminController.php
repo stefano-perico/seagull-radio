@@ -17,7 +17,7 @@ use Symfony\Component\HttpFoundation\Response;
 use Symfony\Component\Routing\Annotation\Route;
 
 /**
- * @IsGranted("ROLE_ADMIN")
+ * @IsGranted("ROLE_ADMIN_CHANNEL")
  */
 class ChannelAdminController extends AbstractController
 {
