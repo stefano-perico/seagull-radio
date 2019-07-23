@@ -15,6 +15,7 @@
         "symfony/flex": "*",
         "symfony/framework-bundle": "^4.1",
         "symfony/security-bundle": "^4.1",
+        "symfony/translation": "^4.1",
         "symfony/twig-bundle": "^4.1",
         "symfony/yaml": "^4.1"
     },
