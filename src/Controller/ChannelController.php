@@ -92,3 +92,4 @@ class ChannelController extends AbstractController
         return $this->redirectToRoute('channel_index');
     }
 }
+

@@ -21,7 +21,6 @@ class AccountController extends BaseController
         return $this->render('account/index.html.twig');
     }
 
-
     /**
      * @Route("/api/account", name="api_account")
      */
